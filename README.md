@@ -25,3 +25,13 @@ A modern HR management portal built with React.
 
 npm install  
 npm run dev
+
+## Demo Accounts
+
+HR Login  
+Email: hr@company.com  
+Password: 123456  
+
+Employee Login  
+Email: employee@company.com  
+Password: 123456  
