@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Brown",
+    "department": "Marketing",
+    "startDate": "2026-04-01",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "name": "David Smith",
+    "department": "IT",
+    "startDate": "2026-03-15",
+    "status": "Completed"
+  }
+]

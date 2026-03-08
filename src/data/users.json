@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "HR Manager",
+    "email": "hr@company.com",
+    "password": "123456",
+    "role": "hr"
+  },
+  {
+    "id": 2,
+    "name": "John Employee",
+    "email": "employee@company.com",
+    "password": "123456",
+    "role": "employee"
+  }
+]

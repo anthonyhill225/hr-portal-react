@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "employeeName": "John Employee",
+    "employeeEmail": "employee@company.com",
+    "leaveType": "Annual Leave",
+    "startDate": "2026-03-20",
+    "endDate": "2026-03-22",
+    "reason": "Family trip",
+    "status": "Pending"
+  }
+]

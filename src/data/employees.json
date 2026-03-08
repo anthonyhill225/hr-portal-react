@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "fullName": "John Employee",
+    "email": "employee@company.com",
+    "department": "IT",
+    "position": "Frontend Developer",
+    "phone": "07123456789",
+    "address": "London, UK"
+  }
+]
