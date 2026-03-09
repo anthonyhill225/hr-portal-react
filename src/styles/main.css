@@ -447,3 +447,34 @@ textarea {
   }
 
 }
+
+.login-links {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.login-links p {
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+}
+
+.login-link-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.secondary-link-btn {
+  display: inline-block;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: #e5e7eb;
+  color: #111827;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.secondary-link-btn:hover {
+  background: #d1d5db;
+}

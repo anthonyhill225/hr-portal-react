@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { getUsers, setCurrentUser } from "../utils/storage";
 
 function Login() {
@@ -44,7 +44,7 @@ function Login() {
   };
 
   return (
-    <div className="page auth-page">
+    <div className="auth-page">
       <div className="card form-card">
         <h1>Login</h1>
         <p>Sign in to access your HR portal account.</p>
@@ -53,7 +53,7 @@ function Login() {
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Email address"
             value={formData.email}
             onChange={handleChange}
             required
@@ -78,6 +78,20 @@ function Login() {
         <div className="demo-box">
           <p><strong>HR Demo:</strong> hr@company.com / 123456</p>
           <p><strong>Employee Demo:</strong> employee@company.com / 123456</p>
+        </div>
+
+        <div className="login-links">
+          <p>Need a new account?</p>
+
+          <div className="login-link-buttons">
+            <Link to="/signup" className="secondary-link-btn">
+              Go to Signup
+            </Link>
+
+            <Link to="/register-employee" className="secondary-link-btn">
+              Register New Employee
+            </Link>
+          </div>
         </div>
       </div>
     </div>
